@@ -1,10 +1,11 @@
-Welcome to Lumache's documentation!
+OCHRE documentation
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**OCHRE** The Object-Oriented, Controllable, High-resolution Residential Energy model is a a high-fidelity, high-resolution residential 
+building model with behind-the-meter DERs and flexible load models that integrates with controllers and distribution models in 
+building-to-grid co-simulation platforms.
+
+**OCHRE** utilizes HPXML
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -18,5 +19,14 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   intro
+   usage_instructions
+   cosimulation
+   inputs
+   outputs
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
