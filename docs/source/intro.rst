@@ -2,7 +2,7 @@ Introduction
 ============
 
 OCHRE is a python based building energy modeling (BEM) tool specifically for residential buildings. The key strengths of OCHRE are the ability to use it with advanced or custom controllers for flexible loads HVAC and water heating as well as the ability to use OCHRE in co-simulation with a grid model.
-OCHRE uses `HPXML <https://hpxml.nrel.gov>`_. as the format for inputs. HPXML is a standardized, interoperable format for sharing residential building characteristics across platforms. Most notably, HPXML integration means OCHRE inputs can be generated from any `OS-HPXML <https://github.com/NREL/OpenStudio-HPXML>`_. based workflow. This includes 'ResStock <https://github.com/NREL/resstock>'_ and 'BEopt <https://www.nrel.gov/buildings/beopt.html>'_ 3.0 or later.
+OCHRE uses `HPXML <https://hpxml.nrel.gov>`_ as the format for inputs. HPXML is a standardized, interoperable format for sharing residential building characteristics across platforms. Most notably, HPXML integration means OCHRE inputs can be generated from any `OS-HPXML <https://github.com/NREL/OpenStudio-HPXML>`_. based workflow. This includes 'ResStock <https://github.com/NREL/resstock>`_ and 'BEopt <https://www.nrel.gov/buildings/beopt.html>`_ 3.0 or later.
 
 Scope 
 -----
@@ -11,4 +11,4 @@ OCHRE can also be used to model a specific piece of equipment (for example, a wa
 
 License
 -------
-This project is available under a BSD-3-like license, which is a free, open-source, and permissive license. For more information, check out the `license file <https://github.com/NREL/OpenStudio-HPXML/blob/master/LICENSE.md>`_.
+This project is available under a BSD-3-like license, which is a free, open-source, and permissive license. For more information, check out the `license file <https://github.nrel.gov/Customer-Modeling/ochre/blob/main/LICENSE>`_.
