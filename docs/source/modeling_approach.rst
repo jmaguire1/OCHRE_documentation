@@ -1,34 +1,25 @@
-Usage
-=====
+Modeling Approach
+=================
 
-.. _installation:
+The overall approach in OCHRE is to try to strike a balance between the computational complexity and model accuracy, using EnergyPlus as a benchmark.
 
-Installation
-------------
+Envelope
+--------
 
-To use Lumache, first install it using pip:
+HVAC
+----
 
-.. code-block:: console
+Water Heating
+-------------
 
-   (.venv) $ pip install lumache
+Batteries
+---------
 
-Creating recipes
-----------------
+Electric Vehicles
+-----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+Photovoltaics (PV)
+------------------
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+Other Loads
+-----------
