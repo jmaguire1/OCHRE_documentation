@@ -5,7 +5,7 @@ OCHRE documentation
 building model with behind-the-meter DERs and flexible load models that integrates with controllers and distribution models in 
 building-to-grid co-simulation platforms.
 
-**OCHRE** utilizes 'HPXML <https://www.hpxmlonline.com/>'_
+**OCHRE** utilizes 'HPXML <https://www.hpxmlonline.com/>'_ 
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
